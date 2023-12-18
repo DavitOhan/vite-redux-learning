@@ -1,4 +1,4 @@
-import { Dislike, Like } from "assets";
+
 import styled from "styled-components";
 import { colors } from "styles/colors";
 
@@ -23,8 +23,8 @@ export const ButtonWrap = styled.div`
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
-    background: rgba(255,255,255, .25);
-    border: 1px solid rgba(255,255,255, .75) ;
+    background: rgb(255, 69, 0);
+    border: 1px solid rgba(255, 140, 0) ;
     img {
       width: 100%;
       height: 100%;

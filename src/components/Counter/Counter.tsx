@@ -36,10 +36,10 @@ function Counter() {
     dispatch(actions.minus())
   }
   const onMultiply = () => {
-    dispatch(actions.multiply(3))
+    dispatch(actions.multiply(2))
   }
   const onDivide = () => {
-    dispatch(actions.divide(4))
+    dispatch(actions.divide(2))
   }
 
   return (
